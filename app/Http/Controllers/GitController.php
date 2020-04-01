@@ -27,7 +27,7 @@ class GitController extends Controller
     public function store(){
         $result = Git::create([
             "user_id" => 20,
-            "git" => 'not yet implemented'
+            "git" => 'https://github.com/Tensky/TugasIAI_432187_26Maret'
         ]);
 
         if($result){

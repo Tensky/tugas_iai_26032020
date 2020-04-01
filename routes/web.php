@@ -15,7 +15,8 @@ $router->get('/', function () use ($router) {
     return $router->app->version();
 });
 
-$router->get('selectAll', 'GitController@selectAll');
+$router->get('selectAll', 'UserController@selectAll');
 $router->get('no1', 'UserController@edit');
 $router->get('no2', 'UserController@gantiPassword');
 $router->get('no3', 'TaskController@generateGanjil');
+$router->get('no5', 'GitController@store');
